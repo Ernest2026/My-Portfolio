@@ -7,7 +7,7 @@ function Projects(props) {
   return (
     <section className={`project ${props.theme}`} id="portfolio">
       <div className="project-container">
-        <h1>Recent projects</h1>
+        <h1>Recent projects/blogs</h1>
         <div className="project-details">
           <div className="project-item">
             <div className="card-img">
@@ -60,9 +60,9 @@ function Projects(props) {
           </div>
           <div className="project-item">
             <div className="card-img">
-              <img src="images/urlshortener.png" alt="Project" />
+              <img src="images/linkdb.png" alt="Project" />
               <ExternalLink
-                href="https://github.com/Ernest2026/Url-shortener"
+                href="https://github.com/Ernest2026/LinkDB"
                 target="_blank"
                 aria-label="Go to github"
               >
@@ -73,14 +73,13 @@ function Projects(props) {
             </div>
             <div className="card-body">
               <ExternalLink
-                href="https://s-u-r-l.herokuapp.com/"
+                href="https://ernest2026.github.io/LinkDB/"
                 target="_blank"
               >
-                Url Shortener
+                LinkDB
               </ExternalLink>
               <p>
-                A single page website that can be used for shortening long urls,
-                was created using Node js, Ejs template and MongoDB.
+                LinkDB: A comprehensive dataset of public LinkedIn members and companies
               </p>
             </div>
           </div>

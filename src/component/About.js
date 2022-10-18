@@ -7,7 +7,7 @@ function About(props) {
         <div className="about-details">
           <div className="about-item">
             <p>
-              <span>3+</span>
+              <span>2+</span>
               <br />
               Years
               <br />
